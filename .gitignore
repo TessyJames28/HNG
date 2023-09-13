@@ -2,6 +2,11 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.env
+Pipfile
+Pipfile.lock
+migrations
+UML_ERD.png:Zone*
 
 # C extensions
 *.so
