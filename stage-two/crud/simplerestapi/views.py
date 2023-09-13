@@ -3,10 +3,10 @@ from rest_framework import generics, status
 from rest_framework.response import Response
 from .models import Person
 from .serializers import PersonSerializer
-from rest_framework.exceptions import NotFound 
+from rest_framework.exceptions import NotFound
 
 # Create your views here.
-class PersonView(generics.ListCreateAPIView):
+class PersonView(generics.CreateAPIView):
     queryset = Person.objects.all()
     serializer_class = PersonSerializer
     
