@@ -48,4 +48,4 @@ Database Modeling
 
 The database structure can be represented using UML diagrams. The diagram showcases the relationships and structure of the API's classes and models. Please refer to the UML diagram provided in the repository.
 
-![UML Diagram](stage-two/crud/UML_ERD.png)
+![UML Diagram](crud/UML_ERD.png)
