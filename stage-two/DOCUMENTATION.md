@@ -2,6 +2,7 @@ API Documentation
 ==================
 
 * This document provides detailed documentation for the ``Simple Person CRUD API``. It outlines the:
+    - Database Model with UML Diagram
     - request/response formats
     - setup instructions
     - sample API usage.
@@ -9,9 +10,18 @@ API Documentation
 Table of Contents
 ==================
 
+- Database Modeling / UML Diagram
 - API Endpoints
 - Request/Response Formats
 - Setup and Installation
+
+
+Database Modeling / UML Diagram
+--------------------------------
+
+The database structure can be represented using UML diagrams. The diagram showcases the relationships and structure of the API's classes and models. Please refer to the UML diagram provided in the repository.
+
+![UML Diagram](crud/UML_ERD.png)
 
 
 API Endpoints
